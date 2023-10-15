@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+/* navigation bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .main-icon{
+    width: 20%;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 1.25rem 0 1.25rem 10rem;
+}
+
+nav .nav-options{
+    width: 70%;
+    display: flex;
+    padding: 1.50rem 1rem 1.25rem 25rem;
+}
+
+nav .nav-options .opt{
+    margin: 0 2rem 0rem 2rem;
+}
+
+nav .nav-options .opt:hover{
+    transform: translateY(-2px);
+    text-decoration: underline;
+    text-underline-position: auto;
+    text-underline-offset: 3px;
+    transition: 1s;
+}
+
+header h1{
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.25rem;
+    font-weight: 800;
+    font-size: 50px;
+    padding: 0.5rem 0 0.5rem 0;
+    background-color: rgba(139, 157, 227, 0.827);
+}
+
+.sort{
+    display: flex;
+}
+
+.sort .categories{
+    margin: 2rem 3rem 3rem 3rem;
+    width: 60%;
+    display: flex;
+}
+
+.sort .categories .cat-btn{
+    padding: 5px;
+    margin-right: 1.50rem;
+    border-radius: 20rem;
+    font-size: medium;
+    background-color: rgba(128, 128, 128, 0.545);
+}
+
+.sort .categories .cat-rest{
+    margin: 0 0.3rem 0 0.3rem;
+    padding: 3px 4px 3px 4px;
+    font-size: medium;
+    background-color: rgba(128, 128, 128, 0.458);
+}
+
+.search{
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.search input{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 0.5rem 4px 0.5rem 0.5rem;
+    font-size: medium;
+    word-wrap: normal;
+    padding-inline-end: 1.75rem;
+    writing-mode: horizontal-tb;
+    background-color: rgba(128, 128, 128, 0.501);
+}
+
+.search .search-icon{
+    border-radius: 20px;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: medium;
+    margin-left: -1.5rem;
+}
+
+.investor-list{
+    margin-left: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.investor-list img{
+    margin: 2rem 2rem 1rem 0;
+    height: 14rem;
+    width: 20rem;
+    border-radius: 30px;
+}
+
+.more-opp{
+    padding: 100px;
+    background-color: rgb(0, 94, 255);
+}
+
+.more-opp .more-make{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 200;
+    background-color: rgb(0, 94, 255);
+}
+
+.more-opp .more-take{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia;
+    font-weight: 700;
+    font-size: 4rem;
+    background-color: rgb(0, 94, 255);
+}
+
+.more-opp .more-text{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 94, 255);
+}
